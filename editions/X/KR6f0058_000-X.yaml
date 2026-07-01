@@ -1,0 +1,20 @@
+canonical_identifier: bkk:krp/KR6f0058/x/v1/juan/0
+seq: 0
+front:
+  text: 勝鬘經述記目次卷之上如來真實功德章第一十受章第二三願章第三攝受章第四一乘章第五卷之下一乘章之餘無邊聖諦章第六如來藏章第七法身章第八空義隱覆真實章第九一諦章第十一依章第十一顛倒真實章第十二自性清淨章第十三如來真子章第十四勝鬘獅子吼章第十五勝鬘經述記目次終
+  hash: sha256:44102035aaf0989b872874201826f676acfb08e9a34eefcbd3a9963c8505f908
+  markers:
+  - {type: 其他, offset: 0, content: 目次, id: KR6f0058_X_000-mulu-1, level: '1'}
+  - {type: 其他, offset: 126, content: 勝鬘經述記, id: KR6f0058_X_000-mulu-2, level: '1'}
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 勝鬘經述記
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X19/X19n0352.xml
+    old_id: X19n0352
+hash: sha256:8def5f0ff131ecd6e968ae53231bf5f0b1f9df94f29c7fb065c79d06c6e3525a

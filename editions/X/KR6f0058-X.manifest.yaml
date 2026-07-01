@@ -1,0 +1,70 @@
+canonical_identifier: bkk:krp/KR6f0058/X/v1
+canonical_location: https://kanripo.org/bkk/KR6f0058/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 勝鬘經述記
+  identifiers:
+    krp: KR6f0058
+    cbeta: X19n0352
+    cbeta_old_id: X19n0352
+    authorityid: CA0003003
+    json_key: X0352
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X19/X19n0352.xml
+    old_id: X19n0352
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6f0058_000-X.yaml, hash: 'sha256:8def5f0ff131ecd6e968ae53231bf5f0b1f9df94f29c7fb065c79d06c6e3525a'}
+  - {seq: 1, filename: KR6f0058_001-X.yaml, hash: 'sha256:c1abac95f80b64aa19858a80e1418abebfa71b054ad2466947bdf0635495482a'}
+  - {seq: 2, filename: KR6f0058_002-X.yaml, hash: 'sha256:240b874099de4c3d97e5b0a32953fe3ba992b603810eae145c6fc56cd6bff172'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6f0058_000-X.markers.yaml, hash: 'sha256:3d6ea83d08051859567f817312d21c17fde9e0490b848605c6ca298e03e703dd'}
+  - {seq: 1, role: markers, filename: assets/KR6f0058_001-X.markers.yaml, hash: 'sha256:391ea71f1d4ea376c187de9dfaaeca691ea7a4b7292d03dff322f2d1ae8ed0d3'}
+  - {seq: 2, role: markers, filename: assets/KR6f0058_002-X.markers.yaml, hash: 'sha256:b9feeb42dfdd6815bd29987206efd7080b9fc8215241adca83a91a0825999390'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6f0058_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 目次
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6f0058_X_000-mulu-2
+    span:
+    - front
+    - 126
+    - 126
+  label: 勝鬘經述記
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6f0058_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 18645
+  label: 勝鬘經述記卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6f0058_X_002-juan-start
+    span:
+    - body
+    - 0
+    - 17038
+  label: 勝鬘經述記卷下
+  type: juan
+  level: 1
+hash: sha256:fdda6cfbe30b51dc389a38784db905028482f5a2cfa1d5b82dd3961b29c0c6f0

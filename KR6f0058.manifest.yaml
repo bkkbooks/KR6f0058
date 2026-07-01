@@ -1,0 +1,74 @@
+canonical_identifier: bkk:krp/KR6f0058/v1
+canonical_location: https://kanripo.org/bkk/KR6f0058/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 勝鬘經述記
+  identifiers:
+    alt_id:
+    - X19n0352
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X19/X19n0352.xml
+    old_id: X19n0352
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6f0058_000.yaml, hash: 'sha256:8def5f0ff131ecd6e968ae53231bf5f0b1f9df94f29c7fb065c79d06c6e3525a'}
+  - {seq: 1, filename: KR6f0058_001.yaml, hash: 'sha256:da24e3a0832b6f2bbc33740b64ea9d9b783b2f2ca135c2980d92aca3fa0db034'}
+  - {seq: 2, filename: KR6f0058_002.yaml, hash: 'sha256:28a7e1e08aaeec364bb5954aa0136f8144d4a77958adff9a8b92e83ac15b860b'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6f0058_001.markers.yaml, hash: 'sha256:7206ce493f5c930f9b89da94a1f2f055f8b4369ac0a33e8b1b3d3517741b53c4'}
+  - {seq: 2, role: markers, filename: assets/KR6f0058_002.markers.yaml, hash: 'sha256:6667468e82c88b391b934715437ac509bd01e1740532f8c64c2494b67eaf876d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6f0058_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 目次
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6f0058_X_000-mulu-2
+    span:
+    - front
+    - 126
+    - 126
+  label: 勝鬘經述記
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6f0058_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 18645
+  label: 勝鬘經述記卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6f0058_X_002-juan-start
+    span:
+    - body
+    - 0
+    - 17038
+  label: 勝鬘經述記卷下
+  type: juan
+  level: 1
+hash: sha256:940dd184e519258c6ef47938e218735f476cca5c32bc3c552a4c1ecc50af479c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
